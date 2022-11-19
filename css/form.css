@@ -1,0 +1,49 @@
+.form-block{
+    margin-bottom: 10px;
+}
+.select {
+    width: 200px;
+    background: black;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    outline: none;
+    border: 2px solid black;
+}
+.select option{
+    padding: 5px 15px;
+}
+#amount{
+    width: 200px;
+    background: black;
+    color: white;
+    padding: 15px 30px;
+    outline: none;
+    font-size: 1.3rem;
+    border: 2px solid black;
+}
+.form-block button{
+    display: block;
+    width: 100%;
+    margin: 2px auto;
+    padding: 20px;
+    color: white;
+    background: green;
+    text-decoration: none;
+    border: 2px solid black;
+    transition: all .5s linear;
+    font-size: 1.3rem;
+}
+.form-block button:hover{
+    background: transparent;
+    cursor: pointer;
+}
+@media screen and (min-width: 700px) {
+   .select{
+       width: 400px;
+   }
+   #amount{
+       width: 400px;
+   }
+
+  }
